@@ -1,0 +1,84 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: Quarto Book
+  subtitle: An Example of Schol Comm Publications
+  description: |
+    An example of what Schol Comm pubs look like
+  author: 
+    - name: 
+        given: Adam
+        family: Mazel
+        literal: Adam Mazel
+      attributes:
+        corresponding: True
+      affiliations:
+        - name: Indiana University Bloomington Libraries
+          department: Scholarly Communication
+          address: 1320 E. Tenth Street
+          city: Bloomington
+          region: IN
+          postal-code: 47405
+          url: https://libraries.indiana.edu/adam-mazel
+      url: https://amaze2.github.io/
+      orcid: 0000-0001-7241-0891 
+      email: amazel@iu.edu 
+ 
+  date: "4/12/2023"
+
+  cover-image: images/cover.png
+  
+  chapters:
+    - index.qmd
+    - 01-introduction.qmd
+    - 02-chapter.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+citation:
+  type: document
+  publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
+  publisher-place: Bloomington, IN
+  doi: TK
+  url: TK
+
+google-scholar: true
+
+
+site-url: TK
+repo-url: TK
+issue-url: TK
+pdf-url: TK
+repo-actions: [edit, issue]
+favicon: TK
+twitter-card: 
+  image: TK
+  card-style: summary
+open-graph: true
+
+keywords: example
+copyright: CC BY
+
+format:
+  html:
+    theme: journal
+    toc: true
+    toc-title: Contents
+    toc-expand: true
+    number-sections: true
+    anchor-sections: true
+    smooth-scroll: true
+    email-obfuscation: javascript
+    link-external-icon: true
+    link-external-newwindow: true
+    comments:
+      hypothesis: true
+  pdf:
+    documentclass: scrreprt
+    keep-tex: true
+
+
+
