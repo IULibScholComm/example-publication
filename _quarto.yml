@@ -22,7 +22,6 @@ book:
           region: IN
           postal-code: 47405
           url: https://libraries.indiana.edu/adam-mazel
-      url: https://amaze2.github.io/
       orcid: 0000-0001-7241-0891 
       email: amazel@iu.edu 
  
@@ -43,19 +42,18 @@ citation:
   publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
   publisher-place: Bloomington, IN
   doi: TK
-  url: TK
 
 google-scholar: true
 
 
-site-url: TK
-repo-url: TK
-issue-url: TK
-pdf-url: TK
+site-url: https://pages.github.iu.edu/amazel/sc-pub-example/
+repo-url: https://github.iu.edu/amazel/sc-pub-example
+issue-url: https://github.iu.edu/amazel/sc-pub-example/issues/new
+pdf-url: https://github.iu.edu/amazel/sc-pub-example/blob/main/docs/Quarto-Book.pdf
 repo-actions: [edit, issue]
-favicon: TK
+favicon: /images/favicon.ico
 twitter-card: 
-  image: TK
+  image: images/cover.png
   card-style: summary
 open-graph: true
 
