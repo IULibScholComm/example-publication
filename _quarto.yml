@@ -21,9 +21,10 @@ book:
           city: Bloomington
           region: IN
           postal-code: 47405
-          url: https://libraries.indiana.edu/adam-mazel
+          url: https://libraries.indiana.edu/
       orcid: 0000-0001-7241-0891 
-      email: amazel@iu.edu 
+      email: amazel@iu.edu
+      url: https://libraries.indiana.edu/adam-mazel
  
   date: "4/12/2023"
 
@@ -69,7 +70,6 @@ format:
     number-sections: true
     anchor-sections: true
     smooth-scroll: true
-    email-obfuscation: javascript
     link-external-icon: true
     link-external-newwindow: true
     comments:
