@@ -3,10 +3,10 @@ project:
   output-dir: docs
 
 book:
-  title: Quarto Book
-  subtitle: An Example of Schol Comm Publications
-  description: |
-    An example of what Schol Comm pubs look like
+  title: Example Book
+  subtitle: An Example of an IUB Libraries Scholarly Communication Deparment Published Book
+  description: An example IUB Libraries Scholarly Communication publication
+  doi: TK
   author: 
     - name: 
         given: Adam
@@ -27,6 +27,8 @@ book:
       url: https://libraries.indiana.edu/adam-mazel
  
   date: "4/12/2023"
+  language: en
+  downloads: [pdf, epub]
 
   cover-image: images/cover.png
   
@@ -46,7 +48,6 @@ citation:
 
 google-scholar: true
 
-
 site-url: https://pages.github.iu.edu/amazel/sc-pub-example/
 repo-url: https://github.iu.edu/amazel/sc-pub-example
 issue-url: https://github.iu.edu/amazel/sc-pub-example/issues/new
@@ -57,9 +58,6 @@ twitter-card:
   image: images/cover.png
   card-style: summary
 open-graph: true
-
-keywords: example
-copyright: CC BY
 
 format:
   html:
@@ -74,9 +72,8 @@ format:
     link-external-newwindow: true
     comments:
       hypothesis: true
+    keywords: example
+    copyright: CC BY
   pdf:
     documentclass: scrreprt
     keep-tex: true
-
-
-
