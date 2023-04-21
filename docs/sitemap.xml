@@ -2,26 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pages.github.iu.edu/iusw/example-publication/index.html</loc>
-    <lastmod>2023-04-21T19:12:57.571Z</lastmod>
+    <lastmod>2023-04-21T19:30:36.222Z</lastmod>
   </url>
   <url>
     <loc>https://pages.github.iu.edu/iusw/example-publication/01-introduction.html</loc>
-    <lastmod>2023-04-21T19:12:57.579Z</lastmod>
+    <lastmod>2023-04-21T19:30:36.228Z</lastmod>
   </url>
   <url>
     <loc>https://pages.github.iu.edu/iusw/example-publication/02-chapter.html</loc>
-    <lastmod>2023-04-21T19:12:57.583Z</lastmod>
+    <lastmod>2023-04-21T19:30:36.231Z</lastmod>
   </url>
   <url>
     <loc>https://pages.github.iu.edu/iusw/example-publication/references.html</loc>
-    <lastmod>2023-04-21T19:12:57.586Z</lastmod>
+    <lastmod>2023-04-21T19:30:36.235Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pages.github.iu.edu/iusw/example-publication/appendix.html</loc>
+    <lastmod>2023-04-21T19:30:36.240Z</lastmod>
   </url>
   <url>
     <loc>https://pages.github.iu.edu/iusw/example-publication/Example-Publication.pdf</loc>
-    <lastmod>2023-04-21T19:12:56.194Z</lastmod>
+    <lastmod>2023-04-21T19:30:34.838Z</lastmod>
   </url>
   <url>
     <loc>https://pages.github.iu.edu/iusw/example-publication/Example-Publication.epub</loc>
-    <lastmod>2023-04-21T19:12:57.246Z</lastmod>
+    <lastmod>2023-04-21T19:30:35.882Z</lastmod>
   </url>
 </urlset>
