@@ -3,10 +3,13 @@ project:
   output-dir: docs
 
 book:
-  title: Example Book
-  subtitle: An Example of an IUB Libraries Scholarly Communication Deparment Published Book
-  description: An example IUB Libraries Scholarly Communication publication
-  doi: TK
+  title: Example Publication
+  # subtitle: An example IUB Libraries Scholarly Communication publication
+  description: An Example Publication of the IUB Libraries Scholarly Communication Deparment Non-Traditional Publishing Service
+  # abstract: 
+  # doi: TK
+  publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
+  publisher-place: Bloomington, IN
   author: 
     - name: 
         given: Adam
@@ -25,55 +28,98 @@ book:
       orcid: 0000-0001-7241-0891 
       email: amazel@iu.edu
       url: https://libraries.indiana.edu/adam-mazel
- 
-  date: "4/12/2023"
-  language: en
-  downloads: [pdf, epub]
 
-  cover-image: images/cover.png
-  
+  date: last-modified
+  date-format: YYYY-MMMM-DD
+  language: en-US
+  downloads: [pdf, epub, docx]
+  sharing: [twitter, facebook, linkedin]
+  # call-number: 
+  # genre: 
+  type: document
+  keyword: example, "library publishing", "scholarly communication", "indiana university bloomington", "indiana university libraries"
+  license: "CC BY"
+  cover-image: images/abstract.jpg
+  cover-image-alt: blurred lights
+  site-url: https://pages.github.iu.edu/iusw/example-publication/
+  repo-url: https://github.iu.edu/iusw/example-publication
+  issue-url: https://github.iu.edu/iusw/example-publication/issues/new
+  pdf-url: https://github.iu.edu/iusw/example-publication/blob/main/docs/Example-Publication.pdf
+  repo-actions: [edit, issue, source]
+  favicon: images/abstract.jpg
+  cookie-consent: false
+  comments:
+    hypothesis: 
+      theme: classic
+      showHighlights: whenSidebarOpen
+      branding: 
+        appBackgroundColor: "#990000"
+
+  search: 
+    location: sidebar
+    type: overlay
+    copy-button: true
+  page-navigation: true
+  back-to-top-navigation: true
+  image: images/abstract.jpg
+  reader-mode: true
+  # google-analytics: 
+  twitter-card: 
+    description: An example IUB Libraries Scholarly Communication publication
+    card-style: summary
+    site: "@iulibraries"
+  open-graph: true
   chapters:
     - index.qmd
     - 01-introduction.qmd
     - 02-chapter.qmd
     - references.qmd
+  sidebar:
+    logo: images/abstract.jpg
+    tools: 
+      - icon: person
+        href: https://oneill.indiana.edu/faculty-research/directory/profiles/faculty/full-time/novick-kimberly.html
+      - icon: twitter
+        href: https://twitter.com/iulibraries?lang=en
 
 bibliography: references.bib
+# references: 
 
-citation:
-  type: document
-  publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
-  publisher-place: Bloomington, IN
-  doi: TK
+# citation:
+  # type: document
+  # publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
+  # publisher-place: Bloomington, IN
+  # doi: TK
 
-google-scholar: true
-
-site-url: https://pages.github.iu.edu/amazel/sc-pub-example/
-repo-url: https://github.iu.edu/amazel/sc-pub-example
-issue-url: https://github.iu.edu/amazel/sc-pub-example/issues/new
-pdf-url: https://github.iu.edu/amazel/sc-pub-example/blob/main/docs/Quarto-Book.pdf
-repo-actions: [edit, issue]
-favicon: /images/favicon.ico
-twitter-card: 
-  image: images/cover.png
-  card-style: summary
-open-graph: true
+# google-scholar: true
 
 format:
   html:
-    theme: journal
+    theme:
+      light: flatly
+      dark: darkly
     toc: true
     toc-title: Contents
     toc-expand: true
     number-sections: true
-    anchor-sections: true
     smooth-scroll: true
-    link-external-icon: true
     link-external-newwindow: true
-    comments:
-      hypothesis: true
-    keywords: example
-    copyright: CC BY
+    copyright: Adam Mazel
+    date-modified: last-modified
+    license: "CC BY"
   pdf:
-    documentclass: scrreprt
+    documentclass: book
     keep-tex: true
+    toc: true
+    toc-title: Contents
+    lof: true
+    lot: true
+    number-sections: true
+    fontsize: 11pt
+    linkcolor: cyan
+    papersize: letter
+  epub:
+    cover-image: images/abstract.jpg
+    toc: true
+    toc-title: Contents
+    number-sections: true
