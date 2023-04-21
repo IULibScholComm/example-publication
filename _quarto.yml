@@ -74,11 +74,13 @@ book:
     - 01-introduction.qmd
     - 02-chapter.qmd
     - references.qmd
+  appendices: 
+    - appendix.qmd
   sidebar:
     logo: images/abstract.jpg
     tools: 
       - icon: person
-        href: https://oneill.indiana.edu/faculty-research/directory/profiles/faculty/full-time/novick-kimberly.html
+        href: https://amaze2.github.io/
       - icon: twitter
         href: https://twitter.com/iulibraries?lang=en
 
