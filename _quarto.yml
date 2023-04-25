@@ -7,7 +7,7 @@ book:
   # subtitle: An example IUB Libraries Scholarly Communication publication
   description: An Example Publication of the IUB Libraries Scholarly Communication Deparment Non-Traditional Publishing Service
   # abstract: 
-  # doi: TK
+  doi: TK
   publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
   publisher-place: Bloomington, IN
   author: 
@@ -47,14 +47,11 @@ book:
   pdf-url: https://github.iu.edu/iusw/example-publication/blob/main/docs/Example-Publication.pdf
   repo-actions: [edit, issue, source]
   favicon: images/abstract.jpg
-  cookie-consent: false
+  # cookie-consent: false
   comments:
     hypothesis: 
       theme: classic
       showHighlights: whenSidebarOpen
-      branding: 
-        appBackgroundColor: "#990000"
-
   search: 
     location: sidebar
     type: overlay
@@ -63,7 +60,7 @@ book:
   back-to-top-navigation: true
   image: images/abstract.jpg
   reader-mode: true
-  # google-analytics: 
+  google-analytics: "G-PT4W2H086H"
   twitter-card: 
     description: An example IUB Libraries Scholarly Communication publication
     card-style: summary
