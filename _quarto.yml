@@ -82,6 +82,11 @@ book:
         href: https://twitter.com/iulibraries?lang=en
 
 bibliography: references.bib
+
+about: 
+  template: jolla
+  image: images/headshot.jpg
+  id: about-author 
 # references: 
 
 # citation:
