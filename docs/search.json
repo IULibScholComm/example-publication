@@ -25,6 +25,6 @@
     "href": "about.html",
     "title": "3  About the Author",
     "section": "",
-    "text": "Adam Mazel is the Digital Publishing Librarian at Indiana University Bloomington."
+    "text": ":::{#about-author}\nAdam Mazel is the Digital Publishing Librarian at Indiana University Bloomington."
   }
 ]
