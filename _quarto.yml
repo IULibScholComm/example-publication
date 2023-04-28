@@ -39,14 +39,14 @@ book:
   type: document
   keyword: example, "library publishing", "scholarly communication", "indiana university bloomington", "indiana university libraries"
   license: "CC BY"
-  cover-image: images/abstract.jpg
-  cover-image-alt: blurred lights
+  cover-image: images/cover2.jpg
+  cover-image-alt: book cover in IU colors with title, author, and IU logo
   site-url: https://pages.github.iu.edu/iusw/example-publication/
   repo-url: https://github.iu.edu/iusw/example-publication
   issue-url: https://github.iu.edu/iusw/example-publication/issues/new
   pdf-url: https://github.iu.edu/iusw/example-publication/blob/main/docs/Example-Publication.pdf
   repo-actions: [edit, issue, source]
-  favicon: images/abstract.jpg
+  favicon: images/cover2.jpg
   # cookie-consent: false
   comments:
     hypothesis: 
@@ -58,7 +58,7 @@ book:
     copy-button: true
   page-navigation: true
   back-to-top-navigation: true
-  image: images/abstract.jpg
+  image: images/cover2.jpg
   reader-mode: true
   google-analytics: "G-PT4W2H086H"
   twitter-card: 
@@ -74,7 +74,7 @@ book:
   appendices: 
     - appendix.qmd
   sidebar:
-    logo: images/abstract.jpg
+    logo: images/cover2.jpg
     tools: 
       - icon: person
         href: https://amaze2.github.io/
@@ -118,7 +118,7 @@ format:
     linkcolor: cyan
     papersize: letter
   epub:
-    cover-image: images/abstract.jpg
+    cover-image: images/cover2.jpg
     toc: true
     toc-title: Contents
     number-sections: true
