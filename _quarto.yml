@@ -71,7 +71,6 @@ book:
     - 01-introduction.qmd
     - 02-chapter.qmd
     - references.qmd
-    - about.qmd
   appendices: 
     - appendix.qmd
   sidebar:
