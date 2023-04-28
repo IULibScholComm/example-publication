@@ -71,6 +71,7 @@ book:
     - 01-introduction.qmd
     - 02-chapter.qmd
     - references.qmd
+    - about.qmd
   appendices: 
     - appendix.qmd
   sidebar:
@@ -83,10 +84,6 @@ book:
 
 bibliography: references.bib
 
-about: 
-  template: jolla
-  image: images/headshot.jpg
-  id: about-author 
 # references: 
 
 # citation:

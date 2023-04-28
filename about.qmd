@@ -1,8 +1,9 @@
 ---
 title: "About the Author"
 format: html
+about: 
+  template: jolla
+  image: images/headshot.jpg
 ---
-
-:::{#about-author}
 
 Adam Mazel is the Digital Publishing Librarian at Indiana University Bloomington. 
