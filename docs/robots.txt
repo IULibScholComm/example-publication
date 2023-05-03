@@ -1,1 +1,1 @@
-Sitemap: https://pages.github.iu.edu/iusw/example-publication/sitemap.xml
+Sitemap: https://iulibscholcomm.github.io/example-publication/sitemap.xml

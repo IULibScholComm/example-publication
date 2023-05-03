@@ -41,10 +41,10 @@ book:
   license: "CC BY"
   cover-image: images/cover2.jpg
   cover-image-alt: book cover in IU colors with title, author, and IU logo
-  site-url: https://pages.github.iu.edu/iusw/example-publication/
-  repo-url: https://github.iu.edu/iusw/example-publication
-  issue-url: https://github.iu.edu/iusw/example-publication/issues/new
-  pdf-url: https://github.iu.edu/iusw/example-publication/blob/main/docs/Example-Publication.pdf
+  site-url: https://iulibscholcomm.github.io/example-publication/
+  repo-url: https://github.com/IULibScholComm/example-publication
+  issue-url: https://github.com/IULibScholComm/example-publication/issues/new
+  pdf-url: https://github.com/IULibScholComm/example-publication/blob/main/docs/Example-Publication.pdf
   repo-actions: [edit, issue, source]
   favicon: images/cover2.jpg
   # cookie-consent: false
