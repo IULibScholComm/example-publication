@@ -123,3 +123,8 @@ format:
     toc: true
     toc-title: Contents
     number-sections: true
+  docx:
+    toc: true
+    toc-title: Contents
+    number-sections: true
+    lang: en-US

@@ -2,30 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://iulibscholcomm.github.io/example-publication/index.html</loc>
-    <lastmod>2023-05-03T18:41:15.907Z</lastmod>
+    <lastmod>2023-05-05T17:40:52.242Z</lastmod>
   </url>
   <url>
     <loc>https://iulibscholcomm.github.io/example-publication/01-introduction.html</loc>
-    <lastmod>2023-05-03T18:41:15.911Z</lastmod>
+    <lastmod>2023-05-05T17:40:52.246Z</lastmod>
   </url>
   <url>
     <loc>https://iulibscholcomm.github.io/example-publication/02-chapter.html</loc>
-    <lastmod>2023-05-03T18:41:15.916Z</lastmod>
+    <lastmod>2023-05-05T17:40:52.250Z</lastmod>
   </url>
   <url>
     <loc>https://iulibscholcomm.github.io/example-publication/references.html</loc>
-    <lastmod>2023-05-03T18:41:15.920Z</lastmod>
+    <lastmod>2023-05-05T17:40:52.254Z</lastmod>
   </url>
   <url>
     <loc>https://iulibscholcomm.github.io/example-publication/appendix.html</loc>
-    <lastmod>2023-05-03T18:41:15.926Z</lastmod>
+    <lastmod>2023-05-05T17:40:52.260Z</lastmod>
   </url>
   <url>
     <loc>https://iulibscholcomm.github.io/example-publication/Example-Publication.pdf</loc>
-    <lastmod>2023-05-03T18:41:14.646Z</lastmod>
+    <lastmod>2023-05-05T17:40:49.036Z</lastmod>
   </url>
   <url>
     <loc>https://iulibscholcomm.github.io/example-publication/Example-Publication.epub</loc>
-    <lastmod>2023-05-03T18:41:15.577Z</lastmod>
+    <lastmod>2023-05-05T17:40:49.836Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iulibscholcomm.github.io/example-publication/Example-Publication.docx</loc>
+    <lastmod>2023-05-05T17:40:51.933Z</lastmod>
   </url>
 </urlset>
