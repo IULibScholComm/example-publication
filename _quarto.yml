@@ -129,8 +129,4 @@ format:
     number-sections: true
     lang: en-US
     date: last-modified
-    author: 
-      - name: 
-          given: Adam
-          family: Mazel
-          literal: Adam Mazel
+    author: Adam Mazel
