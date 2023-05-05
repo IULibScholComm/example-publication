@@ -11,23 +11,20 @@ book:
   publisher: Scholarly Communication Department, Indiana University Bloomington Libraries
   publisher-place: Bloomington, IN
   author: 
-    - name: 
-        given: Adam
-        family: Mazel
-        literal: Adam Mazel
-      attributes:
-        corresponding: True
-      affiliations:
-        - name: Indiana University Bloomington Libraries
-          department: Scholarly Communication
-          address: 1320 E. Tenth Street
-          city: Bloomington
-          region: IN
-          postal-code: 47405
-          url: https://libraries.indiana.edu/
-      orcid: 0000-0001-7241-0891 
-      email: amazel@iu.edu
-      url: https://libraries.indiana.edu/adam-mazel
+    name: Adam Mazel
+    attributes:
+      corresponding: True
+    affiliations:
+      - name: Indiana University Bloomington Libraries
+        department: Scholarly Communication
+        address: 1320 E. Tenth Street
+        city: Bloomington
+        region: IN
+        postal-code: 47405
+        url: https://libraries.indiana.edu/
+    orcid: 0000-0001-7241-0891 
+    email: amazel@iu.edu
+    url: https://libraries.indiana.edu/adam-mazel
 
   date: last-modified
   date-format: YYYY-MMMM-DD
@@ -118,6 +115,13 @@ format:
     fontsize: 11pt
     linkcolor: cyan
     papersize: letter
+    include-in-header: 
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body: 
+      text: |
+        \printindex
   epub:
     cover-image: images/cover2.jpg
     toc: true
