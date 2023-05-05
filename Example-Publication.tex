@@ -187,13 +187,21 @@
   pdfcreator={LaTeX via pandoc}}
 
 \title{Example Publication}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{of the IUB Libraries Scholarly Communication Department
+Publishing Service}
 \author{Adam Mazel}
 \date{2023-April-21}
 
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, sharp corners, boxrule=0pt, enhanced, borderline west={3pt}{0pt}{shadecolor}, breakable, frame hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, breakable, enhanced, borderline west={3pt}{0pt}{shadecolor}, frame hidden, boxrule=0pt, interior hidden]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Contents}
 {
@@ -292,7 +300,7 @@ Chapter~\ref{sec-intro} for more detail).}
 
 \end{figure}
 
-\begin{tcolorbox}[enhanced jigsaw, opacitybacktitle=0.6, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1: Lorem Ipsum}, coltitle=black, titlerule=0mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, leftrule=.75mm, rightrule=.15mm, toprule=.15mm, breakable, colbacktitle=quarto-callout-note-color!10!white, toptitle=1mm, bottomtitle=1mm, arc=.35mm, left=2mm, opacityback=0, colback=white]
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, arc=.35mm, titlerule=0mm, opacitybacktitle=0.6, bottomrule=.15mm, colback=white, bottomtitle=1mm, opacityback=0, colbacktitle=quarto-callout-note-color!10!white, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Box 1: Lorem Ipsum}, left=2mm, toptitle=1mm, leftrule=.75mm, rightrule=.15mm, toprule=.15mm, breakable, colframe=quarto-callout-note-color-frame]
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Lectus quam id leo

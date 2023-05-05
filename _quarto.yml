@@ -4,7 +4,7 @@ project:
 
 book:
   title: Example Publication
-  # subtitle: An example IUB Libraries Scholarly Communication publication
+  subtitle: of the IUB Libraries Scholarly Communication Department Publishing Service
   description: An Example Publication of the IUB Libraries Scholarly Communication Deparment Non-Traditional Publishing Service
   # abstract: 
   doi: TK
@@ -129,5 +129,4 @@ format:
     number-sections: true
     lang: en-US
     date: last-modified
-    author: Adam Mazel
     reference-doc: custom-reference-doc.docx
